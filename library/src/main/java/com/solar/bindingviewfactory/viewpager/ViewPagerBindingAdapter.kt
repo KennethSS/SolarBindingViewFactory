@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import androidx.viewpager.widget.PagerAdapter
+import com.solar.bindingviewfactory.BR
 import com.solar.bindingviewfactory.BindingItem
 
 abstract class ViewPagerBindingAdapter<T: BindingItem>(
