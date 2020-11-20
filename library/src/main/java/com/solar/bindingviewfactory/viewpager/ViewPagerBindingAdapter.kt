@@ -8,9 +8,8 @@ import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import androidx.viewpager.widget.PagerAdapter
 import com.solar.bindingviewfactory.BR
-import com.solar.bindingviewfactory.BindingItem
 
-abstract class ViewPagerBindingAdapter<T: BindingItem>(
+abstract class ViewPagerBindingAdapter<T: PagerType>(
     private val list: List<T>) : PagerAdapter() {
 
     override fun instantiateItem(container: ViewGroup, position: Int): Any {
